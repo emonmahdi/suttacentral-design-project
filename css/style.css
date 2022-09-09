@@ -1,0 +1,86 @@
+/* Font awesome import  */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+
+/* =====Common====== */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{ 
+    font-family: 'Noto Serif', serif; 
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+}
+/*=============== Header section============= */
+#suttacentral-header-section{
+    /* background-color: #4B4A49; */
+    color:#fff;  
+}
+.search-top-section{
+    background-color: #4B4A49;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search-sec-icons span{
+    margin: 0 25px;
+    display: inline-block;
+    cursor: pointer;
+}
+.suttacentral-banner-section{
+    background-color: #CE8400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 170px;
+}
+.suttacentral-title-subtitle{
+    text-align: center;
+}
+.title-img{
+    height: 40px;
+    width: 40px;
+}
+.main-header-title{
+    display: inline-block;
+    padding-left: 6px;
+}
+.main-header-subtitle{
+    font-size: 20px;
+}
+/* ====== */
+.suttacentral-navbar{
+    background-color: #A16C00;
+}
+.suttacentral-navbar ul li {
+    display: inline-block;
+    text-align: center;
+    padding: 8px 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-bottom: 4px solid transparent;
+    position: relative;
+    transition: .3s;
+}
+/* .suttacentral-navbar ul li::after{
+    position: absolute;
+    content:'';
+    width: 80%;
+    display: block;
+    height: 3px;
+    background-color: red;
+    display: none;
+
+} */
+.suttacentral-navbar ul li:hover { 
+    border-bottom: 4px solid #FFCB61;
+}

@@ -16,13 +16,15 @@ ul{
     list-style: none;
 }
 a{
-    text-decoration: none;
-    color:#fff;
+    text-decoration: none; 
 }
 /*=============== Header section============= */
 #suttacentral-header-section{
     /* background-color: #4B4A49; */
     color:#fff;  
+}
+#home-menu{
+    color:#fff;
 }
 .search-top-section{
     background-color: #4B4A49;
@@ -83,4 +85,76 @@ a{
 } */
 .suttacentral-navbar ul li:hover { 
     border-bottom: 4px solid #FFCB61;
+}
+/* ===========main section============= */
+#suttacentral-main-blog-card{
+    padding:50px 0;
+    background-color: #FAF9F8;
+}
+.section-title-top{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 4px double #CE8400;
+}
+.section-title-top h2{
+    padding-bottom: 10px; 
+}
+.single-blog-main{ 
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.blog-title-author{
+    position: relative;
+    padding: 10px 15px; 
+    cursor: pointer;
+}
+.blog-title-author h3{
+    border-bottom: 3px solid transparent;
+}
+.blog-title-author:hover > h3{
+    border-bottom: 3px solid #FFCB61;
+    
+}
+.blog-title-author h6{
+    color:#84827F;
+    font-size: 20px;
+}
+.blog-category{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 80px;
+    height: auto;
+    background-color: #A16C00;
+    color:#fff;
+    padding:3px 6px;
+}
+.blog-category span{
+    font-size: 11px;
+
+}
+.blog-title-author:hover{
+    background-color: #FFF5DF;
+}
+.blog-content{
+    padding: 15px;
+    font-weight: 500;
+    line-height: 27px;
+}
+.blog-footer{
+    padding: 15px;
+}
+.blog-footer:hover {
+    background-color: #FFF5DF;
+     
+}
+.blog-footer a {
+    color:#000; 
+    font-size: 14px;
+}
+.blog-footer a span{
+    color:#747372;
+    font-weight: bold;
 }
